@@ -1,0 +1,8 @@
+[ambient]	1.0 1.0 1.0 1.0
+[diffuse]	1.0 1.0 1.0 1.0
+[specular]	0.2 0.2 0.2 0.0
+[emission]	0.0 0.0 0.0 0.0
+[shininess]	4.0
+
+[channel 1 texture]		odrtest/route
+[channel 1 tex env mode]	modulate

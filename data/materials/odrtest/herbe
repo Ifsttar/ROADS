@@ -1,0 +1,11 @@
+[ambient]	1.0 1.0 1.0 1.0
+[diffuse]	1.0 1.0 1.0 1.0
+[specular]	0.0 0.0 0.0 0.0
+[emission]	0.0 0.0 0.0 0.0
+[shininess]	16.0
+
+[channel 1 texture]		odrtest/herbe
+[channel 1 tex env mode]	modulate
+[channel 1 tex gen mode]	"world linear"
+[channel 1 tex gen S vector]	0.3 0.0 0.0 0.0
+[channel 1 tex gen T vector]	0.0 0.3 0.0 0.0

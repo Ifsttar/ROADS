@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C++ Express 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "roads", "roads\roads.vcproj", "{ECF3CE2D-FF98-459B-AEF2-1D28C2ACC5CA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E58F274A-0B49-46FD-B7A0-DD09BC58FDA0} = {E58F274A-0B49-46FD-B7A0-DD09BC58FDA0}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "misc", "misc\misc.vcproj", "{7A2FD28E-D1F3-4EDE-94C8-02E9AB63320F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libodr", "libodr\libodr.vcproj", "{E58F274A-0B49-46FD-B7A0-DD09BC58FDA0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7A2FD28E-D1F3-4EDE-94C8-02E9AB63320F} = {7A2FD28E-D1F3-4EDE-94C8-02E9AB63320F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libasphalt", "libasphalt\libasphalt.vcproj", "{A18A4C50-0ABF-4906-8A79-FF9B6CD8555A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E58F274A-0B49-46FD-B7A0-DD09BC58FDA0} = {E58F274A-0B49-46FD-B7A0-DD09BC58FDA0}
+		{7A2FD28E-D1F3-4EDE-94C8-02E9AB63320F} = {7A2FD28E-D1F3-4EDE-94C8-02E9AB63320F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECF3CE2D-FF98-459B-AEF2-1D28C2ACC5CA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ECF3CE2D-FF98-459B-AEF2-1D28C2ACC5CA}.Debug|Win32.Build.0 = Debug|Win32
+		{ECF3CE2D-FF98-459B-AEF2-1D28C2ACC5CA}.Release|Win32.ActiveCfg = Release|Win32
+		{ECF3CE2D-FF98-459B-AEF2-1D28C2ACC5CA}.Release|Win32.Build.0 = Release|Win32
+		{7A2FD28E-D1F3-4EDE-94C8-02E9AB63320F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7A2FD28E-D1F3-4EDE-94C8-02E9AB63320F}.Debug|Win32.Build.0 = Debug|Win32
+		{7A2FD28E-D1F3-4EDE-94C8-02E9AB63320F}.Release|Win32.ActiveCfg = Release|Win32
+		{7A2FD28E-D1F3-4EDE-94C8-02E9AB63320F}.Release|Win32.Build.0 = Release|Win32
+		{E58F274A-0B49-46FD-B7A0-DD09BC58FDA0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E58F274A-0B49-46FD-B7A0-DD09BC58FDA0}.Debug|Win32.Build.0 = Debug|Win32
+		{E58F274A-0B49-46FD-B7A0-DD09BC58FDA0}.Release|Win32.ActiveCfg = Release|Win32
+		{E58F274A-0B49-46FD-B7A0-DD09BC58FDA0}.Release|Win32.Build.0 = Release|Win32
+		{A18A4C50-0ABF-4906-8A79-FF9B6CD8555A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A18A4C50-0ABF-4906-8A79-FF9B6CD8555A}.Debug|Win32.Build.0 = Debug|Win32
+		{A18A4C50-0ABF-4906-8A79-FF9B6CD8555A}.Release|Win32.ActiveCfg = Release|Win32
+		{A18A4C50-0ABF-4906-8A79-FF9B6CD8555A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

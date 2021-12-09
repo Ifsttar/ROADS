@@ -1,0 +1,18 @@
+[ambient]	1.0 1.0 1.0 0.0
+[diffuse]	1.0 1.0 1.0 1.0
+[specular]	0.0 0.0 0.0 0.0
+[emission]	0.0 0.0 0.0 0.0
+[shininess]	16.0
+
+[blended]			true
+[source blend factor]		"src alpha"
+[destination blend factor]	"one minus src alpha"
+
+[channel 1 texture]		odrtest/bordure
+[channel 1 tex env mode]	modulate
+
+[channel 2 texture]		odrtest/herbe
+[channel 2 tex env mode]	modulate
+[channel 2 tex gen mode]	"world linear"
+[channel 2 tex gen S vector]	0.3 0.0 0.0 0.0
+[channel 2 tex gen T vector]	0.0 0.3 0.0 0.0
